@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="targa">
+      <UniqueIdentifier>{e212c0b5-4aad-420c-ab99-97dc4052feb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++ Toolkit">
+      <UniqueIdentifier>{438546ba-206b-425a-ab94-053e78d78da9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\code\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libraries\targa\src\targa.c">
+      <Filter>targa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Texture_Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Shader_Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Elevation_Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\View.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Color_Buffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Color_Buffer_Rgba8888.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\targa\include\targa.h">
+      <Filter>targa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Skybox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Algorithms.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Array.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Char.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Cloneable.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Coordinates.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Decoder.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Encoder.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\File_Reader.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\File_Writer.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Input_Stream.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\macros.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Matrix.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Memory_Reader.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Memory_Writer.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Non_Copyable.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Obfuscation_Decoder.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Obfuscation_Encoder.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Object_Pool.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Output_Stream.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Point.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Pointer.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Projection.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Random_Generator.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Reader.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Rotation.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Scaling.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Seekable.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Shared_Ptr.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Stream.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\String.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Transformation.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Translation.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\types.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Vector.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Void_Decoder.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Void_Encoder.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libraries\cpp-toolkit\headers\Writer.hpp">
+      <Filter>C++ Toolkit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Texture_Cube.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Fragment_Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Shader_Program.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Vertex_Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Cube.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Elevation_Mesh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Mesh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Material.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\Material_Shaders.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
